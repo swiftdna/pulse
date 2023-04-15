@@ -1,0 +1,21 @@
+export const SET_ALERT = 'SET_ALERT';
+export const CLEAR_ALERT = 'CLEAR_ALERT';
+
+export const SET_TOAST = 'SET_TOAST';
+export const CLEAR_TOAST = 'CLEAR_TOAST';
+
+export const SET_REDIRECTION = 'SET_REDIRECTION';
+export const CLEAR_REDIRECTION = 'CLEAR_REDIRECTION';
+
+export const SET_CURRENCY = 'SET_CURRENCY';
+export const ADD_COUNTRIES = 'ADD_COUNTRIES';
+
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILURE = 'LOGIN_FAILURE';
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const LOGOUT_FAILURE = 'LOGOUT_FAILURE';
+
+export const ADD_PROFILE = 'ADD_PROFILE';
+export const LOADING_PROFILE = 'LOADING_PROFILE';
+export const CLEAR_PROFILE = 'CLEAR_PROFILE';
+export const FETCH_PROFILE_ERROR = 'FETCH_PROFILE_ERROR';

@@ -1,0 +1,52 @@
+.droneDetails {
+	border-style: solid;
+
+	border-color: rgb(182, 176, 176);
+	border-radius: 10px;
+	height: fit-content;
+
+	width: 600px;
+
+	margin: 100px;
+	margin-top: 20px;
+
+}
+.DroneInfo {
+	font-size: 20px;
+	font-style: initial;
+	font-weight: 600;
+	color: #1a3447;
+
+	margin: 20px;
+
+}
+.DroneDetails {
+	font-size: 17px;
+	font-weight: 500;
+	color: #1a3447;
+	margin: 20px;
+
+}
+
+.input_text {
+margin: 20px;
+	margin-top: 0px;
+	border-top: 0ch;
+	border-left: 0ch;
+	border-right: 0ch;
+	width: 400px;
+
+	border-color: rgb(182, 176, 176);
+}
+
+.input_text:focus {
+	border-color: #808080;
+}
+
+
+.ml20 {
+	margin-left: 20px;
+}
+.m5 {
+	margin: 5px;
+}

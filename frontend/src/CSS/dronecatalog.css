@@ -1,0 +1,115 @@
+.dropdown {
+	float: left;
+	display: inline;
+}
+.dropdown:not(:first-child) {
+	margin-left: 5px;
+}
+.dropdown-item-button {
+	width: 100px;
+}
+.card-title {
+	text-align: left;
+	font-size: large;
+	font-weight: 800px;
+}
+.card-header {
+	display: inline-flex;
+	padding: none;
+}
+.cards {
+	display: flex;
+}
+.bi {
+	margin-top: 50px;
+	align-self: center;
+}
+
+.content-dronecatalog {
+	color: #1a3447;
+	text-align: left;
+	font-size: 12px;
+	line-height: 6px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.dropdown .btn {
+	font-size: 15px;
+	min-width: 50px;
+	padding: 8px 8px !important;
+}
+/* .heading-dronecatalog {
+	margin-top: 20px;
+} */
+.drone-catalog .card-header {
+	background: none;
+	border: none;
+}
+.drone-catalog .card.add-new {
+	padding: 10px;
+}
+.drone-catalog .btn.btn-edit {
+	padding: 4px 5px;
+	background-color: #0070ba;
+	font-size: 9px;
+	float: right;
+	border-radius: 10px;
+	width: 50px;
+}
+.dc-default .drone-catalog .card .card-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dc-default .drone-catalog .card-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.dc-default .drone-catalog .card-body p.heading-dronecatalog{
+	padding: 0;
+	margin: 6px 0px;
+	font-size: 13px;
+}
+
+.dc-default .drone-catalog .card {
+	margin: 0;
+}
+
+.dc-default .dc-blue {
+	background-color: #027bff !important;
+	font-size: 12px !important;
+	color: white;
+}
+
+.dc-default .hr_rates {
+	color: #8d8d8d;
+	font-size: 14px;
+}
+
+.header-dronecatalog {
+	color: #1a3447;
+
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 44px;
+	letter-spacing: 0em;
+	text-align: left;
+	height: 41px;
+	width: 1007px;
+	left: 358px;
+	top: 282px;
+	border-radius: nullpx;
+}
+.heading-dronecatalog {
+	text-align: left;
+	font-size: 16px;
+	color: #8d8d8d;
+
+	font-weight: 300;
+	line-height: 1rem;
+	letter-spacing: 0em;
+	text-align: left;
+}

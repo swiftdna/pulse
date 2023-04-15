@@ -1,0 +1,114 @@
+.userDetails {
+    border-style: solid;
+
+    border-color: rgb(182, 176, 176);
+    border-radius: 10px;
+    height: fit-content;
+
+    width: fit-content;
+
+    /* margin: 50px; */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+.userInfo {
+    font-size: 20px;
+    font-style: initial;
+    font-weight: 600;
+    color: #1a3447;
+
+    margin: 20px;
+
+}
+.UserDetails {
+    font-size: 17px;
+    font-weight: 500;
+    color: #1a3447;
+    margin: 20px;
+
+}
+
+.input_text {
+    margin: 20px;
+    margin-top: 0px;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    width: 400px;
+
+    border-color: rgb(182, 176, 176);
+}
+
+.input_text:focus {
+    border-color: #808080;
+}
+
+
+.ml20 {
+    margin-left: 20px;
+}
+.m5 {
+    margin: 5px;
+}
+
+.land_add_menu, .farm_add_menu {
+    width: 1200px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.land_add_menu > #searchbox, .farm_add_menu > #searchbox {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.countryselect {
+    /* background-color: #1a3447; */
+    padding: 1%;
+    margin: 20px;
+    margin-top: 10px;
+    width: 400px;
+    background-color: #fff;
+    color: #1a3447;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    border-color: #1a3447;
+    
+}
+
+.progressbar {
+    width: 400px;
+    height: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  
+  .progressbar div {
+    width: 33.3%;
+    height: 100%;
+    background-color: #1a3447;
+  }
+
+  .header-multistep {
+	color: #1a3447;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 44px;
+	letter-spacing: 0em;
+	border-radius: nullpx;
+    text-align: left;
+}
+.heading-multistep {
+	font-size: 16px;
+	color: #4a5e6d;
+	font-family: Inter;
+	font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.reviewcard {
+    text-decoration: underline;
+    font-style: italic;
+}
