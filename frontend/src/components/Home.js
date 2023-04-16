@@ -66,6 +66,9 @@ function Home() {
     }, [data]);
 
     const postContent = () => {
+        if (!content) {
+            return;
+        }
         const {id, username} = userObj;
         const data = {
             user_id: id,
@@ -93,6 +96,7 @@ function Home() {
                           placeholder="Leave a comment here"
                           style={{ height: '100px' }}
                           onChange={(e) => setContent(e.target.value)}
+                          onKeyDown={(e) => e.key === 'Enter' && postContent()}
                         />
                     </FloatingLabel>
                 </Row>
