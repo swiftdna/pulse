@@ -10,9 +10,7 @@
   "author": "Prashanth Subbiah",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs": "^4.4.0",
-    "@tensorflow/tfjs-data": "^4.4.0",
-    "@tensorflow/tfjs-node": "^4.4.0",
+    "axios": "^1.4.0",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.20.1",
     "busboy": "^1.4.0",
@@ -27,7 +25,6 @@
     "moment": "^2.29.4",
     "mongodb": "^4.5.0",
     "morgan": "^1.10.0",
-    "mysql2": "^2.3.3",
     "natural": "^6.3.0",
     "nltk": "^0.0.1",
     "node-fetch": "^2.6.7",
@@ -39,9 +36,6 @@
     "picklejs": "^0.101.0",
     "raw-body": "^2.5.1",
     "sequelize": "^6.25.3",
-    "stopword": "^2.0.8",
-    "stopwords": "^0.0.9",
-    "tokenizer": "^1.1.2",
     "underscore": "^1.13.2"
   },
   "devDependencies": {

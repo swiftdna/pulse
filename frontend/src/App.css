@@ -694,6 +694,9 @@
 .sentiment.positive {
 	color: #00b900;
 }
+.sentiment.neutral {
+	color: #808080;
+}
 .sentiment.negative {
 	color: #ff8900;
 }

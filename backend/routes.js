@@ -3,7 +3,6 @@ const passport = require('passport');
 const moment = require('moment');
 const router = express.Router();
 const {addPost, getPosts} = require('./modules/Posts');
-const {getSentiment} = require('./modules/Sentiment');
 
 const pusher = (req, res, next) => {
   let {model, model: {data: response}} = req;
@@ -24,7 +23,11 @@ router.get('/', isLoggedIn, (req, res) => {
 // router.post('/farmuser', isLoggedIn, FarmUserDroneDetails, pusher);
 router.post('/share', isLoggedIn, addPost, pusher);
 router.get('/posts', isLoggedIn, getPosts);
-router.get('/predict', getSentiment);
+router.get('/update', (req, res) => {
+  COREAPP.sentiment_url = req.query.sentiment_url;
+  res.json({success: true, message: 'Updated sentiment url!'});
+  return;
+});
 router.get('/poll', isLoggedIn, async (req, res) => {
   const {last_count} = req.query;
   let postData = [];

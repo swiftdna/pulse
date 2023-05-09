@@ -9,6 +9,7 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { FaSmile, FaSadTear } from 'react-icons/fa';
+import { BsEmojiNeutralFill } from "react-icons/bs";
 import { addPost, getPosts, pollForUpdates } from '../utils';
 
 function Home() {
@@ -109,7 +110,7 @@ function Home() {
                     {data.map(dt =>
                         <Card className="card_outline">
                           <Card.Body>
-                            <Card.Title>{dt.username} <span className="when">{dt.created_date}</span> <span className={`sentiment ${dt.sentiment}`}>{dt.sentiment === 'positive' ? <FaSmile /> : <FaSadTear />}</span></Card.Title>
+                            <Card.Title>{dt.username} <span className="when">{dt.created_date}</span> <span className={`sentiment ${dt.sentiment}`}>{dt.sentiment === 'positive' ? <FaSmile /> : dt.sentiment === 'neutral' ? <BsEmojiNeutralFill /> : <FaSadTear />}</span></Card.Title>
                             <Card.Text>
                               {dt.content}
                             </Card.Text>
