@@ -61,7 +61,7 @@ export function Login() {
             <div className="login-form dc-login">
                 <div className="main-div">
                     <div className="login-panel">
-                        <h2><span class="register">DroneCloud</span> | Login</h2>
+                        <h2><span class="register">Pulse</span> | Login</h2>
                         <p>Please enter your username and password</p>
                         <div className="form-group">
                             <input onChange = {usernameChangeHandler} type="text" className="form-control" name="username" value={username} placeholder="Username" required/>
